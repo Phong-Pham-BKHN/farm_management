@@ -1,0 +1,684 @@
+@media (max-width: 415px) {
+
+    .font-icon {
+        font-size: 14px;
+    }
+
+    .font-text {
+        font-size: 14px;
+
+    }
+
+    .font-nav {
+        font-size: 10px;
+    }
+
+    .nav-main {
+        display: none;
+    }
+
+    .nav-normal {}
+
+    .nav-min {
+        min-height: 41.6px;
+
+    }
+
+    .icon-min {
+        height: 20px;
+        font-size: 15x;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        height: 20px;
+        padding-left: 5px;
+        font-size: 8px;
+    }
+
+    .font-nav-icon {
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-big {
+        min-height: 41.6px;
+        display: flex;
+        align-items: center;
+    }
+
+    .font-nav-text {
+        height: 20px;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .icon-menu {
+        text-align: center;
+        margin-top: 5px;
+
+    }
+
+    .height-phone {
+        height: 300px;
+    }
+
+
+
+    .nav-link {
+        display: none;
+
+    }
+
+    .nav-link.active {
+        background-color: rgb(255, 255, 255);
+        width: 200px;
+        flex-direction: column;
+        position: absolute;
+        top: 37px;
+        right: 0;
+        list-style: none;
+        display: flex;
+        border: 1px solid rgb(193, 193, 193);
+      
+        border: 2px solid transparent;
+        /* Để tạo không gian cho border */
+        box-shadow: 0 0 10px rgba(32, 130, 82, 0.5);
+        z-index: 1000
+    }
+
+
+
+
+    .icon-menu-list {
+        width: 20px;
+    }
+
+    .list-flex {
+        min-height: 450px;
+    }
+
+    .height-list {
+        height: 180vh;
+    }
+}
+
+@media (min-width: 416px) and (max-width: 767px) {
+    .font-icon {
+        font-size: 14px;
+    }
+
+    .font-text {
+        font-size: 14px;
+    }
+
+    .form-height {
+
+        padding: 20px 0px !important;
+    }
+
+    .font-nav {
+        font-size: 10px;
+    }
+
+    .nav-main {
+        display: none;
+    }
+
+    .nav-normal {}
+
+    .nav-min {
+        min-height: 41.6px;
+
+    }
+
+    .icon-min {
+        height: 24px;
+        font-size: 15x;
+    }
+
+    .text {
+        display: flex;
+        align-items: flex-end;
+        height: 24px;
+        padding-left: 5px;
+        font-size: 14 px;
+    }
+
+    .font-nav-icon {
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-big {
+        min-height: 41.6px;
+        display: flex;
+        align-items: center;
+    }
+
+    .font-nav-text {
+        height: 24px;
+        margin-top: 5px;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .icon-menu {
+        text-align: center;
+        margin-top: 5px;
+
+    }
+
+    .nav-link {
+        display: none;
+
+    }
+
+    .nav-link.active {
+        background-color: rgb(244, 244, 244);
+        width: 200px;
+        flex-direction: column;
+        position: absolute;
+        top: 37px;
+        right: 0;
+        list-style: none;
+        display: flex;
+        border: 1px solid rgb(193, 193, 193);
+        color: rgb(124, 124, 124);
+        border-radius: 5px;
+        z-index: 1000
+    }
+
+
+    .icon-menu-list {
+        width: 20px;
+    }
+
+    .height-list {
+        height: 180vh;
+    }
+
+    .center-list {
+        width: 100%;
+        height: 50%;
+        margin: auto;
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .font-icon {
+        font-size: 24px;
+    }
+
+    .form-home-icon {
+        min-height: 56.8px;
+    }
+
+    .font-text {
+        font-size: 16px;
+    }
+
+    .form-height {
+        padding: 20px 0px !important;
+    }
+
+    .nav-normal {
+        display: none;
+    }
+
+    .nav-main {}
+
+    .nav-big {
+        min-height: 56.8px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .font-nav-text {
+        font-size: 8px;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .font-nav-icon {
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+    }
+
+    .icon-min {
+        height: 30px;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        height: 30px;
+        padding-left: 5px;
+    }
+
+    /* 
+    .screen-full {
+        display: none;
+    } */
+
+}
+
+@media (min-width: 992px) and (max-width:1430px) {
+    .font-icon {
+        font-size: 30px;
+    }
+
+    .font-text {
+        font-size: 24px;
+    }
+
+    /* .form-height {
+        padding: 30px 0px !important;
+    } */
+
+    .font-nav {
+        font-size: 24px;
+    }
+
+
+
+    .nav-normal {
+        display: none;
+    }
+
+    .nav-big {
+        min-height: 56.8px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .font-nav-icon {
+        font-size: 20px;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .font-nav-text {
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .icon-min {
+        height: 30px;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        height: 30px;
+        padding-left: 5px;
+    }
+
+}
+
+@media (min-width: 1431px) {
+    .font-icon {
+        font-size: 30px;
+    }
+
+    .font-text {
+        font-size: 24px;
+    }
+
+    /* .form-height {
+        padding: 30px 0px !important;
+    } */
+
+    .font-nav {
+        font-size: 24px;
+    }
+
+    .font-nav-text {
+        font-size: 14px;
+    }
+
+    .nav-normal {
+        display: none;
+    }
+
+    .nav-big {
+        min-height: 56.8px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .font-nav-icon {
+        font-size: 24px;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .font-nav-text {
+        color: rgb(255, 255, 255);
+    }
+
+    .icon-min {
+        height: 30px;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        height: 30px;
+        padding-left: 5px;
+    }
+
+    .height-list {
+        height: 90vh;
+    }
+}
+.flex-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    height: 100%; width: 100%; border: 1px solid rgb(255, 255, 255); background-color: rgb(255, 255, 255);
+}
+.nav-link ul li a {
+    margin-right: 20px;
+    list-style-type: none;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.nav-link ul li {
+    margin-right: 20px;
+    list-style-type: none;
+    display: flex;
+
+}
+
+.box-top {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 40%;
+    float: left;
+}
+
+.box-bottom {
+    width: 100%;
+    height: 65%;
+    float: left;
+}
+
+.height-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.height-list-box {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 90vh;
+}
+
+.height-list-box-vungtrong {
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 90vh;
+}
+
+.nav {
+    background-color: rgb(81, 151, 255);
+    border-radius: 0px 0px 8px 0px;
+}
+
+.form-home-icon {
+    text-align: center;
+}
+
+.main {
+    float: left;
+    width: auto;
+
+}
+
+.header {
+    float: left;
+
+    background-color: blueviolet;
+
+}
+
+.list {
+    padding-right: 0px !important;
+}
+
+.center-list {
+    margin: auto auto;
+}
+
+.form-height {
+    text-align: center;
+    background-color: rgb(201, 201, 201) !important;
+    display: flex !important;
+    text-align: center !important;
+}
+
+.a {
+    color: black !important;
+}
+
+.border {
+    border-right: 1px solid #3c15fd;
+}
+
+.nav-color {
+    background-color: rgb(88, 147, 255);
+}
+
+.alignment {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.navigation-img {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.navigation-text-header {
+    width: 100%;
+    height: 30px;
+    float: left;
+    text-align: center;
+}
+
+.list-group-item {
+    background-color: green;
+    padding: 10px 1px !important;
+}
+
+.main-left {
+    height: auto
+}
+
+.main-right {
+    width: 800px;
+    float: left;
+    height: auto;
+
+}
+
+
+.box_left {
+    width: auto;
+    height: auto;
+
+    border: 2px solid transparent;
+    /* Để tạo không gian cho border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.color-box {
+    background-color: aliceblue;
+}
+
+.box-small {
+    width: 90%;
+    height: 90%;
+    margin: 10px auto;
+
+}
+
+.title-main {
+    background-color: rgb(120, 124, 127);
+}
+
+.box_right {
+    width: auto;
+    height: auto;
+    border: 2px solid transparent;
+    /* Để tạo không gian cho border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    margin-top: 30px;
+}
+
+.box-small-text {
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+
+/* .font-text {
+    font-size: 20px;
+} */
+
+.select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.form-input {
+    width: 70%;
+}
+
+.btn {
+    width: 15%;
+    float: right;
+}
+
+.form-button {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form-search {
+    width: 80%;
+    float: left;
+}
+
+.box-vungtrong {
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.tittle {
+    text-align: center;
+}
+
+.select-nav {
+    border: none;
+    background-color: rgb(81, 151, 255);
+    ;
+    outline: 0 !important;
+}
+
+.none-left {
+    padding-left: 0px !important;
+}
+
+.val-select {
+    background-color: rgb(255, 255, 255);
+    color: black !important;
+}
+
+.nav-icon-small {
+    width: 100%;
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+
+.nav-text-small {
+    width: 100%;
+    height: 50%;
+    float: left;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+}
+
+.add-text {
+    width: 130px !important
+}
+
+.map {
+    width: 863px;
+    height: 700px;
+    float: left;
+}
+
+.can {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.icon-min {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.text {
+    width: 80%;
+    float: left;
+
+}
+
+.title {
+    width: auto;
+
+    height: auto;
+    float: left;
+}
+
+.content {
+    height: auto;
+    float: left;
+}
