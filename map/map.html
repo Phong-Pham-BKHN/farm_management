@@ -82,20 +82,20 @@ map.on('draw:created', function (e) {
     ====================================================*/
 
     /*=======================GET CURRENT POSITION========================*/
+    
     if(navigator.geolocation){
-        console.log("Your browser dosen't support geolocation feature!")
-    } else{
         navigator.geolocation.getCurrentPosition(getPosition)
+    } else{
+        console.log("Your browser doesn't support geolocation feature!")
     }
 
     function getPosition(position){
-        //console.log(position)
         var lat = position.coords.latitude
         var long = position.coords.longitude
         var accuracy = position.coords.accuracy
 
         var marker = L.marker([lat, long]).addTo(map)
-
+        map.setView([lat, long], 20);
         console.log(lat, long, accuracy)
     }
 
